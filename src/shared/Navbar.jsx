@@ -50,7 +50,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="border-x border-x-transparent hover:border-x-slate-200 px-2 py-3 hover:bg-slate-200 rounded duration-200"
+								className="border-x border-x-transparent dark:text-gray-200 dark:hover:bg-slate-400 hover:border-x-slate-200 px-2 py-3 hover:bg-slate-100 rounded duration-200"
 								href="#"
 							>
 								Log in or sign up
@@ -69,7 +69,7 @@ export default function Navbar() {
 					<ul className="flex justify-center lg:w-full space-x-8">
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Motors
@@ -77,7 +77,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Property for Rent
@@ -85,7 +85,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Property for Sale
@@ -93,7 +93,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								ClassFields
@@ -101,7 +101,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Furniture & Garden
@@ -109,7 +109,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Mobiles & Tablets
@@ -117,7 +117,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Jobs
@@ -125,7 +125,7 @@ export default function Navbar() {
 						</li>
 						<li>
 							<a
-								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black duration-200"
+								className="font-medium dark:text-gray-200 py-3 px-2 inline-block border-b-4 hover:border-b-4 border-transparent hover:border-b-black dark:hover:border-b-primary-500 duration-200"
 								href="#"
 							>
 								Community

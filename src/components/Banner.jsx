@@ -82,7 +82,7 @@ export default function Banner() {
 					</div>
 					<div className="lg:flex lg:space-x-3 px-2 lg:px-0 py-4 lg:py-0 relative">
 						<input
-							className="w-full p-4 lg:rounded-md outline-primary-400 rounded-full border border-gray-300/50 dark:border-gray-400/20 dark:bg-transparent"
+							className="w-full p-4 lg:rounded-md rounded-full border border-gray-300/50 dark:border-gray-400/20 dark:bg-slate-800/40 dark:text-gray-300"
 							placeholder="Search for anything"
 							type="text"
 							name="search"
@@ -91,7 +91,7 @@ export default function Banner() {
 						<img
 							src={inputSearch}
 							alt="input-search"
-							className="hidden lg:inline-block absolute right-[190px] top-5 w-5 opacity-60 bg-white"
+							className="hidden lg:inline-block absolute right-[190px] top-5 w-5 opacity-60 bg-white dark:bg-transparent dark:opacity-100" 
 						/>
 						<button>
 							<img
