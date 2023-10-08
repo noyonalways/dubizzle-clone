@@ -25,25 +25,25 @@ export default function Navbar() {
 
 					<ul className="hidden lg:flex space-x-8 items-center">
 						<li>
-							<a className="flex flex-col items-center py-3" href="#">
+							<a className="flex flex-col items-center py-3 decoration-primary-500 hover:underline" href="#">
 								<img src={notification} alt="" />
 								<span className="dark:text-gray-200">Notificaion</span>
 							</a>
 						</li>
 						<li>
-							<a className="flex flex-col items-center py-3" href="#">
+							<a className="flex flex-col items-center py-3 decoration-primary-500 hover:underline" href="#">
 								<img src={search} alt="" />
 								<span className="dark:text-gray-200">My Searches</span>
 							</a>
 						</li>
 						<li>
-							<a className="flex flex-col items-center py-3" href="#">
+							<a className="flex flex-col items-center py-3 decoration-primary-500 hover:underline" href="#">
 								<img src={favorite} alt="" />
 								<span className="dark:text-gray-200">Favorites</span>
 							</a>
 						</li>
 						<li>
-							<a className="flex flex-col items-center py-3" href="#">
+							<a className="flex flex-col items-center py-3 decoration-primary-500 hover:underline" href="#">
 								<img src={chat} alt="" />
 								<span className="dark:text-gray-200">Chats</span>
 							</a>

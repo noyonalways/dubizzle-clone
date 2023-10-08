@@ -1,27 +1,27 @@
-import motors from "../assets/icons/motor.svg";
-import rentProperty from "../assets/icons/rent-property.svg";
-import saleProperty from "../assets/icons/sale-property.svg";
-import classiFields from "../assets/icons/classifields.svg";
-import jobs from "../assets/icons/jobs.svg";
-import community from "../assets/icons/community.svg";
-import rentRoom from "../assets/icons/rent-room.svg";
-import furniture from "../assets/icons/furniture.svg";
-import mobile from "../assets/icons/mobile.svg";
-import inputSearch from "../assets/icons/input-search.svg";
+import motors from "../../assets/icons/motor.svg";
+import rentProperty from "../../assets/icons/rent-property.svg";
+import saleProperty from "../../assets/icons/sale-property.svg";
+import classiFields from "../../assets/icons/classifields.svg";
+import jobs from "../../assets/icons/jobs.svg";
+import community from "../../assets/icons/community.svg";
+import rentRoom from "../../assets/icons/rent-room.svg";
+import furniture from "../../assets/icons/furniture.svg";
+import mobile from "../../assets/icons/mobile.svg";
+import inputSearch from "../../assets/icons/input-search.svg";
 
 export default function Banner() {
 	return (
-		<div>
+		<section>
 			<div className="container bg-none lg:bg-banner bg-cover bg-center bg-no-repeat lg:my-2 lg:pb-10 lg:pt-5 rounded-md ">
 				<h1 className="text-2xl text-center font-semibold lg:text-white lg:mb-8 hidden lg:block">
 					The best place to buy your house, sell your car or find a job in Dubai
 				</h1>
-				<div className="lg:bg-black lg:bg-opacity-50 rounded-md lg:p-4 lg:w-[90%] mx-auto">
+				<div className="lg:bg-black lg:bg-opacity-50 rounded-md lg:p-4 lg:w-[85%] mx-auto">
 					<div className="hidden lg:flex items-center space-x-14 mb-4">
 						<span className="text-lg font-medium lg:text-white hidden lg:block">
 							Searching in
 						</span>
-						<ul className="hidden lg:flex items-center space-x-2">
+						<ul className="hidden lg:flex items-center space-x-2 text-sm">
 							<li>
 								<a
 									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
@@ -174,6 +174,6 @@ export default function Banner() {
 					<span className="dark:text-gray-100">Mobile Phone & Tablets</span>
 				</a>
 			</div>
-		</div>
+		</section>
 	);
 }
