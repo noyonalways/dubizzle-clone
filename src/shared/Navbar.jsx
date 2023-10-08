@@ -9,21 +9,24 @@ import homeSearch from "../assets/icons/home-search.svg";
 import pluse from "../assets/icons/pluse.svg";
 import message from "../assets/icons/message.svg";
 import profile from "../assets/icons/profile.svg";
+import ThemeSwitcher from "../components/ThemeSwitcher/ThemeSwitcher";
 
 export default function Navbar() {
 	return (
 		<header>
 			<div className="lg:border-b lg:border-b-gray-500/10 dark:lg:border-b-gray-300/10">
 				<nav className="flex justify-center lg:justify-between lg:items-center container ">
-					<div className="inline-block lg:flex items-center space-x-3 py-3 md:py-0">
+					<div className="inline-flex lg:flex items-center space-x-3 py-3 md:py-0">
 						<a href="#">
 							<img className="dark:hidden" src={logo} alt="logo" />
 							<img className="hidden dark:inline-block" src={logoDark} alt="logo" />
 						</a>
+						<div className="lg:hidden mt-5 absolute right-6 top-0"><ThemeSwitcher /></div>
 						<span className="mt-5 text-sm hidden lg:inline-block dark:text-gray-200">Dubai</span>
 					</div>
 
 					<ul className="hidden lg:flex space-x-8 items-center">
+					<ThemeSwitcher />
 						<li>
 							<a className="flex flex-col items-center py-3 decoration-primary-500 hover:underline" href="#">
 								<img src={notification} alt="" />
@@ -61,6 +64,7 @@ export default function Navbar() {
 								Place Your Ad
 							</a>
 						</li>
+						
 					</ul>
 				</nav>
 			</div>

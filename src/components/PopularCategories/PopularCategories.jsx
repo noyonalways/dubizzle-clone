@@ -118,8 +118,8 @@ export default function PopularCategories() {
 	return (
 		<section className="my-5 hidden lg:block">
 			<div className="container">
-				<h1 className="text-2xl font-semibold mb-3">Popular Catogories</h1>
-				<div className=" lg:grid lg:grid-cols-5 gap-4">
+				<h1 className="text-2xl font-semibold mb-4 dark:text-gray-100">Popular Catogories</h1>
+				<div className=" lg:grid lg:grid-cols-5 gap-y-4 gap-x-3">
 					{data?.map((category, index) => (
 						<SingleCategory key={index + 1} category={category} />
 					))}
