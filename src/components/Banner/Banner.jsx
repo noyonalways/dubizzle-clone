@@ -16,7 +16,7 @@ export default function Banner() {
 				<h1 className="text-2xl text-center font-semibold lg:text-white lg:mb-8 hidden lg:block">
 					The best place to buy your house, sell your car or find a job in Dubai
 				</h1>
-				<div className="lg:bg-black lg:bg-opacity-50 rounded-md lg:p-4 lg:w-[85%] mx-auto">
+				<div className="lg:bg-black lg:bg-opacity-50 rounded-md lg:p-4 lg:w-[88%] mx-auto">
 					<div className="hidden lg:flex items-center space-x-14 mb-4">
 						<span className="text-base font-semibold lg:text-white hidden lg:block">
 							Searching in
