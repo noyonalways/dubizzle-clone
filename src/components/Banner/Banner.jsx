@@ -18,13 +18,13 @@ export default function Banner() {
 				</h1>
 				<div className="lg:bg-black lg:bg-opacity-50 rounded-md lg:p-4 lg:w-[85%] mx-auto">
 					<div className="hidden lg:flex items-center space-x-14 mb-4">
-						<span className="text-lg font-medium lg:text-white hidden lg:block">
+						<span className="text-base font-semibold lg:text-white hidden lg:block">
 							Searching in
 						</span>
 						<ul className="hidden lg:flex items-center space-x-2 text-sm">
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									All
@@ -32,7 +32,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Motors
@@ -40,7 +40,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Classifields
@@ -48,7 +48,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Property for Sale
@@ -56,7 +56,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Property for Rent
@@ -64,7 +64,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Jobs
@@ -72,7 +72,7 @@ export default function Banner() {
 							</li>
 							<li>
 								<a
-									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-medium rounded-full"
+									className="hover:bg-primary-500 duration-200 text-white px-5 py-2 font-semibold rounded-full"
 									href="#"
 								>
 									Community

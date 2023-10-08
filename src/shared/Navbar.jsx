@@ -139,8 +139,8 @@ export default function Navbar() {
 				</div>
 			</div>
 
-			<div className="fixed w-full bottom-0">
-				<div className="lg:hidden absolute bottom-0 left-0 flex border-t border-t-gray-300/40 dark:border-t-gray-200/20 text-gray-500 w-full justify-between bg-white dark:bg-transparent">
+			<div className="fixed w-full bottom-0 z-50">
+				<div className="lg:hidden absolute bottom-0 left-0 flex border-t border-t-gray-300/40 dark:border-t-gray-200/20 text-gray-500 w-full justify-between bg-white dark:bg-[#202124]">
 					<a className="p-3 space-y-1 dark:text-gray-200 flex flex-col items-center text-xs" href="#">
 						<img src={home} alt="home-icon" />
 						<span>Home</span>
